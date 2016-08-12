@@ -1,0 +1,9 @@
+.numbers {
+	font-size: 15px;
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.third {
+	cursor: pointer;	
+}
