@@ -1,6 +1,7 @@
 module.exports = function(grunt) {
 
-	grunt.initConfig({    
+	grunt.initConfig({ 
+
 		watch: {
 			files: 'scss/*.scss',
 			tasks: ['sass'],
@@ -8,6 +9,7 @@ module.exports = function(grunt) {
 				livereload: true
 			}
 		},
+
 		sass: {
 			dist: {
 				files: {
@@ -15,6 +17,7 @@ module.exports = function(grunt) {
 				}
 			}
 		},
+
 		browserSync: {
 			bsFiles: {
 				src : [
@@ -30,6 +33,7 @@ module.exports = function(grunt) {
 				
 			}
 		}
+		
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-watch');
