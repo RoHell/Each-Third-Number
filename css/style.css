@@ -6,27 +6,19 @@ h1 {
 small {
   color: #666; }
 
-.numbers {
-  font-size: 15px;
-  list-style-type: none;
-  padding-left: 0;
-  text-align: left; }
-
-.third {
-  cursor: pointer; }
-
 button {
+  float: left;
   min-width: 50px;
   padding: 5px;
   margin: 8px 2px;
   background-color: #ccc;
-  font-size: 18px;
   border: 1px solid transparent;
   border-radius: 4px;
   outline: none; }
 
 .third {
-  background-color: #ccc; }
+  background-color: #aaa;
+  cursor: pointer; }
   .third:hover {
     border: 1px solid #333; }
 

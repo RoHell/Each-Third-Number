@@ -26,12 +26,10 @@ $(function() {
 			backgroundColor: '#ccc'
 		})
 			.text($index)
+			.off('click', smile)
 			.on('click', smile)
 			.removeAttr('style');
 	}
 
 	$('.third').on('click', smile);
 });
-
-
-
